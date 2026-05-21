@@ -11,7 +11,7 @@ author_profile: true
 
 <div style="display: flex; align-items: center; gap: 25px; margin-bottom: 35px;">
   <div style="flex: 0 0 160px;">
-    <img src="/images/projects/dairy40.png" alt="dAIry 4.0 logo" style="max-width: 160px;">
+    <img src="/images/dairy40.png" alt="dAIry 4.0 logo" style="max-width: 160px;">
   </div>
   <div>
     <h3 style="margin-bottom: 10px;">
