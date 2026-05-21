@@ -5,32 +5,112 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<div class="wordwrap">
+You can also find my articles on <a href="https://scholar.google.gr/citations?user=bfqNP_cAAAAJ&hl=el">my Google Scholar profile</a>.
+</div>
 
-{% include base_path %}
+<h2>Peer-Reviewed Journal Publications</h2>
+<hr>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<ol reversed>
 
+<li>
+Temenos, N., Temenos, A., Zafeiropoulos, C., Kalogeras, D., Doulamis, A., Doulamis, N., et al. (2026).
+<i>PrONe-RS: A Graph-Isomorphic Pruning with Pareto-Driven Optimization Framework for Network Sizing in Remote Sensing LULC Applications.</i>
+IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing.
+<a href="https://doi.org/10.1109/JSTARS.2026.3686462">DOI</a>
+</li>
 
+<li>
+Paroni, K. A., Sykiotis, S., Bakalos, N., Temenos, A., Kyriakidis, C., Doulamis, A., & Doulamis, N. (2025).
+<i>Explainable AI Toward Data-Driven Policymaking for Urban Heat Island Climate Adaptation.</i>
+Land, 15(1), 62.
+<a href="https://doi.org/10.3390/land15010062">DOI</a>
+</li>
 
+<li>
+Temenos, A., Temenos, N., Skamantzari, M., Doulamis, A., Doulamis, N., Daradimos, E., & Christoforou, N. (2025).
+<i>BauXAIte: An Explainable AI Framework for UAV Multisensor-Driven Bauxite Stockpile Mapping and Classification.</i>
+IEEE JSTARS.
+<a href="https://doi.org/10.1109/JSTARS.2025.3604070">DOI</a>
+</li>
+
+<li>
+Kourounioti, O., Temenos, A., Temenos, N., Oikonomou, E., Doulamis, A., & Doulamis, N. (2025).
+<i>UAVINE-XAI: eXplainable AI-Based Spectral Band Selection for Vineyard Monitoring Using UAV Hyperspectral Data.</i>
+IEEE JSTARS.
+<a href="https://doi.org/10.1109/JSTARS.2025.3555788">DOI</a>
+</li>
+
+<li>
+Korelidou, V., Grbovic, Z., Pavlovic, D., Simovic, I., Panic, M., Temenos, A., & Gelasakis, A. I. (2025).
+<i>Clinical Assessment of Dairy Goats’ Udder Health Using Infrared Thermography.</i>
+Animals, 15(5), 658.
+<a href="https://doi.org/10.3390/ani15050658">DOI</a>
+</li>
+
+<li>
+Temenos, A., Voulodimos, A., Korelidou, V., Gelasakis, A., Kalogeras, D., Doulamis, A., & Doulamis, N. (2024).
+<i>Goat-CNN: A lightweight convolutional neural network for pose-independent body condition score estimation in goats.</i>
+Journal of Agriculture and Food Research, 16, 101174.
+<a href="https://doi.org/10.1016/j.jafr.2024.101174">DOI</a>
+</li>
+
+<li>
+Temenos, A., Temenos, N., Tzortzis, I. N., Rallis, I., Doulamis, A., & Doulamis, N. (2024).
+<i>C2A-DC: A context-aware adaptive data cube framework for environmental monitoring and climate change crisis management.</i>
+Remote Sensing Applications: Society and Environment, 34, 101171.
+<a href="https://doi.org/10.1016/j.rsase.2024.101171">DOI</a>
+</li>
+
+<li>
+Temenos, A., Temenos, N., Kaselimi, M., Doulamis, A., & Doulamis, N. (2023).
+<i>Interpretable deep learning framework for land use and land cover classification in remote sensing using SHAP.</i>
+IEEE Geoscience and Remote Sensing Letters, 20, 1–5.
+<a href="https://doi.org/10.1109/LGRS.2023.3251652">DOI</a>
+</li>
+
+<li>
+Temenos, A., Tzortzis, I. N., Kaselimi, M., Rallis, I., Doulamis, A., & Doulamis, N. (2022).
+<i>Novel insights in spatial epidemiology utilizing explainable AI (XAI) and remote sensing.</i>
+Remote Sensing, 14(13), 3074.
+<a href="https://doi.org/10.3390/rs14133074">DOI</a>
+</li>
+
+<li>
+Temenos, A., Temenos, N., Doulamis, A., & Doulamis, N. (2022).
+<i>On the exploration of automatic building extraction from RGB satellite images using deep learning architectures based on U-Net.</i>
+Technologies, 10(1), 19.
+<a href="https://doi.org/10.3390/technologies10010019">DOI</a>
+</li>
+
+</ol>
+
+<h2>Peer-Reviewed Conference Publications</h2>
+<hr>
+
+<ol reversed>
+
+<li>Temenos, A., Protopapadakis, E., Doulamis, A., & Temenos, N. (2021). <i>Building Extraction from RGB Satellite Images using Deep Learning: A U-Net Approach.</i> <a href="https://doi.org/10.1145/3453892.3461320">DOI</a></li>
+
+<li>Gallos, P. et al. (2022). <i>Using mHealth technologies to promote public health and well-being in urban areas with blue-green solutions.</i> <a href="https://doi.org/10.3233/SHTI220791">DOI</a></li>
+
+<li>Temenos, A. et al. (2022). <i>Spatio-temporal interpretation of the COVID-19 risk factors using explainable AI.</i> <a href="https://doi.org/10.1109/IGARSS46834.2022.9884922">DOI</a></li>
+
+<li>Temenos, A. et al. (2023). <i>Multi-Spectral Band Selection and Spatial Explanations Using XAI Algorithms in Remote Sensing Applications.</i> <a href="https://doi.org/10.1109/IGARSS52108.2023.10282565">DOI</a></li>
+
+<li>Huo, W. et al. (2024). <i>Integration of health indicators and quantification of benefits from BGS urban interventions.</i> <a href="https://doi.org/10.5194/egusphere-egu24-3300">DOI</a></li>
+
+<li>Zafeiropoulos, C. et al. (2024). <i>Toward Health-Centered Monitoring framework promoting Well-Being and Nature-based Solutions.</i> <a href="https://doi.org/10.1145/3652037.3663929">DOI</a></li>
+
+<li>Bakalos, N. et al. (2024). <i>Segmentation of Remote Sensing Data with Missing Modalities Through Prototype Knowledge Distillation.</i> <a href="https://doi.org/10.1109/IGARSS53475.2024.10641049">DOI</a></li>
+
+<li>Temenos, A. et al. (2024). <i>Identifying False Negative Flood Events Using Interpretable Deep Learning Framework.</i> <a href="https://doi.org/10.1109/IGARSS53475.2024.10642460">DOI</a></li>
+
+<li>Angeli, A. et al. (2025). <i>Pre-Clinical Results of the Impact of Blue-Green Urban Solutions on Humans’ Health.</i> <a href="https://doi.org/10.1145/3733155.3734913">DOI</a></li>
+
+<li>Temenos, A. et al. (2025). <i>Band-Focused Adversarial Attacks on Multispectral Images Exposing Hidden Vulnerabilities in LULC Classification.</i> <a href="https://doi.org/10.1109/IGARSS55030.2025.11242253">DOI</a></li>
+
+<li>Kousta, M. N. et al. (2025). <i>Boosting Land Use-Land Cover Model Versatility Through Self-Distillation Techniques.</i> <a href="https://doi.org/10.1109/IGARSS55030.2025.11242738">DOI</a></li>
+
+</ol>
