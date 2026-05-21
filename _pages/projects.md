@@ -14,9 +14,13 @@ author_profile: true
     <img src="/images/projects/dairy40.png" alt="dAIry 4.0 logo" style="max-width: 160px;">
   </div>
   <div>
-    <h3>dAIry 4.0</h3>
+    <h3 style="margin-bottom: 10px;">
+  <a href="https://dairy40.eu/" target="_blank" style="text-decoration: none;">
+    dAIry 4.0
+  </a>
+</h3>
     <p>
-      dAIry 4.0 is a European research project focused on advancing digital and AI-driven technologies for the dairy sector. My work is related to computer vision, animal monitoring, AI model development, and the coordination of research activities within the project.
+      The agricultural sector is grappling with the challenge of increasing production while minimising the adverse effects of this on society, climate and biodiversity. There is a growing need for climate-friendly sustainable agriculture. Automated milking systems (AMS) have proven beneficial by reducing manual labour, cutting costs and enhancing milk quality. The EU-funded dAIry 4.0 will revolutionise AMS by integrating AI, data and robotics solutions. By leveraging multimodal learning techniques, self-supervised data augmentation and novel explainable AI as well as actively involving farmers in the process, the project seeks to optimise AMS production while minimising its impact on the environment and animal welfare. It promises to be a game changer for both the farming sector and the food industry.
     </p>
   </div>
 </div>
@@ -30,7 +34,7 @@ author_profile: true
   <div>
     <h3>HARMONIA</h3>
     <p>
-      HARMONIA focused on supporting urban resilience and climate adaptation through Earth Observation, environmental data, and digital tools for decision-making in cities.
+      Combatting climate change requires all sorts of tools, methods, and policy commitments. To support the adaptation and mitigation measures of the Paris Agreement, the EU-funded HARMONIA project will focus on a solution for climate applications. It will test modern remote sensing tools and 3D-4D monitoring. Specifically, the project will leverage existing tools and services to deliver an integrated assessment platform working on top of Global Earth Observation System of Systems (GEOSS). Machine learning/deep learning techniques will also be used to develop a modular, scalable, data-driven, multi-layer knowledge base of urban areas. HARMONIA will consider the local ecosystems of European urban areas with extra attention to sustainable urban development goals. HARMONIA aims to deliver an integrated resilience assessment platform (IRAP).
     </p>
   </div>
 </div>
