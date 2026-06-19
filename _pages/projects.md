@@ -25,6 +25,25 @@ author_profile: true
   </div>
 </div>
 
+<h2>Active Projects</h2>
+
+<div style="display: flex; align-items: center; gap: 25px; margin-bottom: 35px;">
+  <div style="flex: 0 0 160px;">
+    <img src="/images/theia_logo.png" alt="dAIry 4.0 logo" style="max-width: 160px;">
+  </div>
+  <div>
+    <h3 style="margin-bottom: 10px;">
+  <a href="https://theia-project.eu/" target="_blank" style="text-decoration: none;">
+    dAIry 4.0
+  </a>
+</h3>
+    <p>
+      THEIA project  is about enhancing Copernicus Security Services – EU governmental crisis management hub for forced population displacement. The implementation of THEIA, integrating data fusion, processing, and analysis, particularly leveraging Geospatial Artificial Intelligence (GeoAI) and Machine Learning, is poised to enhance the efficacy of existing services significantly. Through the amalgamation of multi-temporal data and diverse datasets, THEIA empowers better decision-making and adapts to evolving policy and user needs. This technological advancement, bolstered by GeoAI, augments detection capabilities and ensures timely access to crucial information, bridging the gap between capabilities and stringent security demands.
+    </p>
+  </div>
+</div>
+
+
 <h2>Archived Projects</h2>
 
 <div style="display: flex; align-items: center; gap: 25px; margin-bottom: 35px;">
