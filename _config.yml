@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Anastasios (Tasos) Temenos"
 title_separator          : "-"
 name                     : &name "Anastasios (Tasos) Temenos"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "GeoAI, Earth observation and trustworthy artificial intelligence"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://TasosTemenos.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Tasos Temenos"
   pronouns         : # example: "she/her"  
-  bio              : "Hello! My name is Anastasios, though you can call me Tasos. I am a researcher at the Institute of Communication and Computer Systems (ICCS) and the National Technical University of Athens (NTUA), specializing in Earth Observation, remote sensing, GeoAI, explainable artificial intelligence, and climate resilience. My research focuses on developing trustworthy AI-driven frameworks for environmental monitoring, land use and land cover mapping, urban resilience, and geospatial decision support systems. I am also actively involved in European and ESA-funded research projects, bridging artificial intelligence with real-world applications in environmental monitoring, agriculture, and climate adaptation."
+  bio              : "Senior Researcher at NTUA / ICCS. GeoAI, Earth observation and trustworthy AI."
   location         : "Athens, Greece"
   employer         : "National Technical University of Athens"
   uri              : # URL
@@ -41,7 +41,7 @@ author:
   orcid            : "https://orcid.org/0000-0001-8027-4471"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           :
   researchgate     : # URL
   scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57225155462"
   zotero           : # URL
@@ -57,7 +57,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          :
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -97,7 +97,6 @@ breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -166,6 +165,11 @@ include:
   - _pages
   - files
 exclude:
+  - TasosTemenos_website_content
+  - docs
+  - scripts
+  - .idea
+  - markdown_generator
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

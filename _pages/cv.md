@@ -1,64 +1,51 @@
 ---
-layout: archive
-title: "CV"
+layout: profile
+title: Experience and education
 permalink: /cv/
-author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+## Professional experience
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+### Senior Researcher / Researcher · NTUA and ICCS
+**Since 2021 · Athens, Greece**
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+Research and development of geospatial AI, remote sensing, machine learning and computer vision systems for European and national research programmes. Work includes scientific tasks and deliverables, data pipelines, model development and validation, technical coordination, field installations and experimental demonstrations.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+### Surveying and geospatial engineering
+**Freelance and contract work · Greece · Since 2022**
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+Topographic surveying with GNSS and total stations, topographic plans, digital terrain modelling and transportation engineering drawings using AutoCAD and Civil 3D. Contract assignments have included engineering work associated with Athens Metro extensions.
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Education
+
+### PhD · National Technical University of Athens · 2025
+Artificial intelligence, geoinformatics and machine learning for Earth observation.
+
+*Reshaping Urban Resilience: Trustworthy AI-Driven Frameworks for Strengthening Public Health, Critical Infrastructure and Crisis Management from Climate Change Effects.* [Dissertation record](https://doi.org/10.12681/eadd/60053).
+
+### Integrated M.Eng. · National Technical University of Athens · 2021
+Rural, Surveying and Geoinformatics Engineering. Thesis: *Automatic building extraction from RGB satellite images using deep learning.* [Thesis record](https://doi.org/10.26240/heal.ntua.21802).
+
+## Teaching and mentoring
+
+**Academic / Teaching Assistant · NTUA · 2022–2025**
+
+Supported undergraduate lectures, tutorials and laboratory sessions, prepared educational material, assessed assignments and provided academic feedback. Supported diploma-thesis work through guidance on methods, implementation and technical reporting.
+
+## Awards
+
+- **2026 · Dimitris N. Chorafas Foundation Award**, Informatics and Computer Science, for doctoral work.
+- **2024 · D. Thomaidis Award**, original scientific publication.
+- **2023 · D. Thomaidis Award**, original scientific publication.
+
+## Technical expertise
+
+Machine learning and computer vision; explainable AI and model validation; satellite and UAV imagery; geospatial data processing and data cubes; GNSS and surveying; Python, PyTorch, TensorFlow, scikit-learn, GDAL, Rasterio, GeoPandas, xarray, QGIS and ArcGIS.
+
+## Certification
+
+EASA Remote Pilot Competency, A1/A3 and A2 (2024–2029).
+
+[Publications]({{ '/publications/' | relative_url }}) are maintained in their existing collection.
